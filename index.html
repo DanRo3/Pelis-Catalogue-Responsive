@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <title>Kaneki Copy</title>
+    <link rel="icon" href="assets/img/icologo.ico" type="image/x-icon"> 
+    
+</head>
+<body>
+
+    <header class="header">
+        <nav>
+            <div class="container-logo"> 
+                <img class="logo-img" src="assets/img/LOGO.svg" alt="">
+                <h1>Kaneki Copy</h1>
+            </div> 
+            <div class="container-menu-search">
+                <div class="find" id="find">
+                    <input type="text" class="buscador-input" placeholder="Encuentra lo que buscas">
+                    <button class="buscador-butom"><img src="assets/img/find.svg" alt=""></button>
+                </div>
+            </div>              
+        </nav>
+
+        <div class="filters" id="filters">
+            <!-- Categorias -->
+            <ul class="lista-categorias" id="lista-categorias">
+                <li class="categoria active">Novedades</li>
+                <li class="categoria">Peliculas</li>
+                <li class="categoria">Series</li>
+                <li class="categoria">Animes</li>
+                <li class="categoria">Doramas</li>
+                <li class="categoria">Novelas</li>
+                <li class="categoria">Infantiles</li>
+            </ul>
+        <!-- A-Z-list -->
+            <ul class="lista-az" id="lista-az">
+                <li class="boton-orden"><span>A</span></li>
+                <li class="boton-orden"><span>B</span></li>
+                <li class="boton-orden"><span>C</span></li>
+                <li class="boton-orden"><span>D</span></li>
+                <li class="boton-orden"><span>E</span></li>
+                <li class="boton-orden"><span>F</span></li>
+                <li class="boton-orden"><span>G</span></li>
+                <li class="boton-orden"><span>H</span></li>
+                <li class="boton-orden"><span>I</span></li>
+                <li class="boton-orden"><span>J</span></li>
+                <li class="boton-orden"><span>K</span></li>
+                <li class="boton-orden"><span>L</span></li>
+                <li class="boton-orden"><span>M</span></li>
+                <li class="boton-orden"><span>N</span></li>
+                <li class="boton-orden"><span>O</span></li>
+                <li class="boton-orden"><span>P</span></li>
+                <li class="boton-orden"><span>Q</span></li>
+                <li class="boton-orden"><span>R</span></li>
+                <li class="boton-orden"><span>S</span></li>
+                <li class="boton-orden"><span>T</span></li>
+                <li class="boton-orden"><span>U</span></li>
+                <li class="boton-orden"><span>V</span></li>
+                <li class="boton-orden"><span>W</span></li>
+                <li class="boton-orden"><span>X</span></li>
+                <li class="boton-orden"><span>Y</span></li>
+                <li class="boton-orden"><span>Z</span></li>
+            </ul>
+        </div>  
+
+    </header>
+
+    <section class="container">
+        <!-- modal -->
+        <aside id="modal" class="modal">
+            <a href="#" class="close-modal">
+                <img src="assets/img/cerrar.svg" alt="">
+            </a>
+            <div class="content-modal">
+                <div class="contenedor-pelicula">
+
+                    <div class="caja-busqueda b1">
+                        <div class="container-menu-search l">
+                            <div class="find" id="find">
+                                <input type="text" class="buscador-input" placeholder="Encuentra lo que buscas">
+                                <button class="buscador-butom"><img src="assets/img/find.svg" alt=""></button>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div class="titulo-cont-M" id="titulo-cont-M">
+                        <h1 class="h1-t" id="h1-t">Mad Max</h1>
+                        <p class="year-p" id="year-p">2015</p>
+                    </div>
+
+                    <div class="linea"></div>
+
+                    <div class="cont-info">
+                        <div class="img-cont-info">
+                            <img id="image-cont-info" src="assets/img/prueba/img 1.webp" alt="">
+                        </div>
+
+                        <div class="sinopsis-container">
+
+                            <p class="sinopsis">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Dolore consectetur sequi veniam quo sunt officiis tempore 
+                                aliquid necessitatibus consequatur obcaecati deserunt similique
+                                optio, odio explicabo sapiente aperiam. Saepe, facere necessitatibus.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae 
+                                dolore quo eius soluta culpa fugiat. Lorem ipsum dolor sit amet 
+                                consectetur adipisicing elit. Ducimus cupiditate minus quaerat, 
+                                ea repellat aliquam quam aut magni, a est quisquam amet, sunt 
+                                distinctio iste maxime placeat maiores ex? Voluptates pariatur 
+                                dicta necessitatibus totam, corporis sequi vel quo officia nemo! 
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <ul class="lista-generos">
+                                <li>Acción</li>
+                                <li>Ciencia ficción</li>
+                                <li>Drama</li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </aside>
+
+        <div class="app" id="app">
+            <!-- titulo -->
+            <h2>Novedades</h2>
+            <div class="contenedor-pelis">
+                <!-- Forma inicial de las targetas -->
+                <article class="targeta-contenido" id="targeta-contenido" 
+                style="background: url(assets/img/prueba/img\ 1.webp);background-size: cover;">
+                    <div class="texto">
+                        <div class="titulo">
+                            <h4>Mad-Max Fury</h4>
+                            <button id="show-modal">
+                                <a href="#modal">
+                                    <img src="assets/img/info.svg" alt="">
+                                </a>                               
+                            </button>   
+                        </div>
+                        <p>Accion, Aventura, Ciencia ficción</p>
+                        <p>2015</p>
+                    </div>
+                </article>
+                <article class="targeta-contenido" id="targeta-contenido" 
+                style="background: url(assets/img/prueba/2.jpg);background-size: cover;">
+                    <div class="texto">
+                        <div class="titulo">
+                            <h4>Wonka</h4>
+                            <button id="show-modal">
+                                <a href="#modal">
+                                    <img src="assets/img/info.svg" alt="">
+                                </a>                               
+                            </button>   
+                        </div>
+                        <p>Ciencia ficción, Drama</p>
+                        <p>2024</p>
+                    </div>
+                </article>
+                <article class="targeta-contenido" id="targeta-contenido" 
+                style="background: url(assets/img/prueba/3.jpg);background-size: cover;">
+                    <div class="texto">
+                        <div class="titulo">
+                            <h4>El caballero oscuro</h4>
+                            <button id="show-modal">
+                                <a href="#modal">
+                                    <img src="assets/img/info.svg" alt="">
+                                </a>                               
+                            </button>   
+                        </div>
+                        <p>Ciencia ficción, Drama, Accion, Belico</p>
+                        <p>2024</p>
+                    </div>
+                </article>
+                <article class="targeta-contenido" id="targeta-contenido" 
+                style="background: url(assets/img/prueba/4.jpg);background-size: cover;">
+                    <div class="texto">
+                        <div class="titulo">
+                            <h4>Aquaman y el reino perdido</h4>
+                            <button id="show-modal">
+                                <a href="#modal">
+                                    <img src="assets/img/info.svg" alt="">
+                                </a>                               
+                            </button>   
+                        </div>
+                        <p>Ciencia ficción, Accion</p>
+                        <p>2024</p>
+                    </div>
+                </article>
+                <article class="targeta-contenido" id="targeta-contenido" 
+                style="background: url(assets/img/prueba/5.jpg);background-size: cover;">
+                    <div class="texto">
+                        <div class="titulo">
+                            <h4>La liga de la justicia</h4>
+                            <button id="show-modal">
+                                <a href="#modal">
+                                    <img src="assets/img/info.svg" alt="">
+                                </a>                               
+                            </button>   
+                        </div>
+                        <p>Animado</p>
+                        <p>2024</p>
+                    </div>
+                </article>
+                <article class="targeta-contenido" id="targeta-contenido" 
+                style="background: url(assets/img/prueba/img\ 1.webp);background-size: cover;">
+                    <div class="texto">
+                        <div class="titulo">
+                            <h4>Mad-Max Fury</h4>
+                            <button id="show-modal">
+                                <a href="#modal">
+                                    <img src="assets/img/info.svg" alt="">
+                                </a>                               
+                            </button>   
+                        </div>
+                        <p>Accion, Aventura, Ciencia ficción</p>
+                        <p>2015</p>
+                    </div>
+                </article>
+                <article class="targeta-contenido" id="targeta-contenido" 
+                style="background: url(assets/img/prueba/2.jpg);background-size: cover;">
+                    <div class="texto">
+                        <div class="titulo">
+                            <h4>Wonka</h4>
+                            <button id="show-modal">
+                                <a href="#modal">
+                                    <img src="assets/img/info.svg" alt="">
+                                </a>                               
+                            </button>   
+                        </div>
+                        <p>Ciencia ficción, Drama</p>
+                        <p>2024</p>
+                    </div>
+                </article>
+                <article class="targeta-contenido" id="targeta-contenido" 
+                style="background: url(assets/img/prueba/3.jpg);background-size: cover;">
+                    <div class="texto">
+                        <div class="titulo">
+                            <h4>El caballero oscuro</h4>
+                            <button id="show-modal">
+                                <a href="#modal">
+                                    <img src="assets/img/info.svg" alt="">
+                                </a>                               
+                            </button>   
+                        </div>
+                        <p>Ciencia ficción, Drama, Accion, Belico</p>
+                        <p>2024</p>
+                    </div>
+                </article>
+                <article class="targeta-contenido" id="targeta-contenido" 
+                style="background: url(assets/img/prueba/4.jpg);background-size: cover;">
+                    <div class="texto">
+                        <div class="titulo">
+                            <h4>Aquaman y el reino perdido</h4>
+                            <button id="show-modal">
+                                <a href="#modal">
+                                    <img src="assets/img/info.svg" alt="">
+                                </a>                               
+                            </button>   
+                        </div>
+                        <p>Ciencia ficción, Accion</p>
+                        <p>2024</p>
+                    </div>
+                </article>
+                <article class="targeta-contenido" id="targeta-contenido" 
+                style="background: url(assets/img/prueba/5.jpg);background-size: cover;">
+                    <div class="texto">
+                        <div class="titulo">
+                            <h4>La liga de la justicia</h4>
+                            <button id="show-modal">
+                                <a href="#modal">
+                                    <img src="assets/img/info.svg" alt="">
+                                </a>                               
+                            </button>   
+                        </div>
+                        <p>Animado</p>
+                        <p>2024</p>
+                    </div>
+                </article>
+                <!-- Cuando el buscador en el destock no encuantra nada muestra esto -->
+                <!-- <div class="noencontrado">
+                    <h1> No encontrado :( </h1>
+                </div> -->
+            </div>   
+        </div>
+
+
+        <aside class="modalb"  id="modalb">
+            <a href="#" class="close-modal">
+                <img src="assets/img/cerrar.svg" alt="">
+            </a>
+            <div class="content-modala">
+                <div class="caja-busqueda b1">
+                    <div class="container-menu-search l">
+                        <div class="find" id="find">
+                            <input type="text" class="buscador-input" placeholder="Encuentra lo que buscas">
+                            <button class="buscador-butom"><img src="assets/img/find.svg" alt=""></button>
+                        </div>
+                    </div> 
+                </div>
+                <div class="resultadoBusqueda">
+                    <ul class="lista-resultados">
+
+                        <li class="elemento-resultado">
+                            <img src="assets/img/prueba/img 1.webp" alt="">
+                            <h3>Mad max</h3>
+                        </li>
+                    </ul>
+
+                    <!-- Cuando el buscador en movil no encuantra nada muestra esto -->
+                    <!-- <div class="noencontrado">
+                        <h1> No encontrado :( </h1>
+                    </div> -->
+                </div>
+                
+
+            </div>
+        </aside>
+
+        <!-- menu movil -->
+        <div class="menu-movil">
+            <ul class="contenedor-icons-menu-movil" id="lista-menu-movil">
+                <a href="#modalb"><li class="icon-menu-movil " id="buscar"><img src="assets/img/busqueda1.svg" alt=""></li></a>
+                <li class="icon-menu-movil " id="home"><img src="assets/img/home1.svg" alt=""></li>
+                <li class="icon-menu-movil activado-m" id="categorias"><img src="assets/img/menu1.svg" alt=""></li>
+            </ul>
+        </div>
+
+        <footer>
+            <div class="container-footer">
+                <div class="container-info">
+                    <div class="telefono">
+                        <img src="assets/img/telefono.png" alt="">
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="direccion">
+                        <img src="assets/img/direccion.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                    </div>
+                </div> 
+                <div class="logo-footer">
+                    <img src="assets/img/LOGO.svg" alt="">
+                    <div>
+                        <h3>Kaneki Copy </h3>
+                        <p>Copyright © 2024 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="relleno"></div>
+        </footer>
+        
+    </section>
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>
